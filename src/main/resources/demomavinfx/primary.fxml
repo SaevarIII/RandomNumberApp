@@ -20,6 +20,10 @@
             <Font size="14.0" />
          </font>
       </Button>
+      <Button fx:id="NewWindowButton" layoutX="279.0" layoutY="100.0"
+            onAction="#onOpenNewWindow"
+            prefHeight="39.0" prefWidth="150.0"
+            text="Open New Window" />
         <ImageView fx:id="Heisenberg" fitHeight="435.0" fitWidth="402.0" layoutX="144.0" layoutY="186.0" visible="false">
          <image>
             <Image url="@images/Heisenberg.png" />
